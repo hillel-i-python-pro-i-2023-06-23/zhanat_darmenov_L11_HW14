@@ -1,0 +1,9 @@
+# Ignore all
+**
+
+# Exclude
+!homework_zhanat_darmenov_L10_HW12/
+!phonebook/
+!requirements.txt
+!manage.py
+!Makefile
