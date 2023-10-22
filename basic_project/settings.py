@@ -69,6 +69,13 @@ TEMPLATES = [
     },
 ]
 
+MIDDLEWARE = [
+    "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.contrib.auth.middleware.AuthenticationMiddleware",
+    "django.contrib.messages.middleware.MessageMiddleware",
+]
+
+
 WSGI_APPLICATION = "basic_project.wsgi.application"
 
 
